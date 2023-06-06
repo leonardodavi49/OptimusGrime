@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To call the endpoint /instructions, use this Body
 
-Things you may want to cover:
+{
+  "grid_size": "5x5",
+  "coordinates": ["(1, 3)", "(4, 4)"]
+}
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+With the size of the body that needs and the points to clean in this format
